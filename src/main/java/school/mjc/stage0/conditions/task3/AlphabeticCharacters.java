@@ -9,7 +9,7 @@ public class AlphabeticCharacters {
 
         if (character == 'a' || character == 'e' || character == 'i' || character == 'o' || character == 'u' || character == 'y') {
             System.out.println("Vowel");
-        } else if (character == 'b' || character == 'c' || character == 'd' || character == 'f' || character == 'g' || character == 'h' || character == 'j' || character == 'k' || character == 'l' || character == 'm' || character == 'n' || character == 'p' || character == 'r' || character == 's' || character == 't' || character == 'v' || character == 'w' || character == 'q' || character == 'z') {
+        } else if (character == 'b' || character == 'c' || character == 'd' || character == 'f' || character == 'g' || character == 'h' || character == 'j' || character == 'k' || character == 'l' || character == 'm' || character == 'n' || character == 'p' || character == 'r' || character == 's' || character == 't' || character == 'v' || character == 'w' || character == 'x' || character == 'q' || character == 'z') {
             {
                 System.out.println("Consonant");
             }

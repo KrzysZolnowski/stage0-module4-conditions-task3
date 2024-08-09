@@ -24,12 +24,13 @@ public class IsEnglishSymbolDeterminer {
                 || symbol == 'u'
                 || symbol == 'v'
                 || symbol == 'w'
+                || symbol == 'x'
                 || symbol == 'q'
                 || symbol == 'y'
                 || symbol == 'z') {
             System.out.println("English");
         } else {
-            System.out.println("Non english");
+            System.out.println("Non English");
         }
     }
 }

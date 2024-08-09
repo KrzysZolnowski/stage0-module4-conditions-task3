@@ -6,19 +6,17 @@ public class SalaryCalculator {
             double taxes = 0.15;
             double sumOfTaxes = salary * taxes;
             double basicSalary = salary - sumOfTaxes;
-            System.out.println("Basic salary = " + basicSalary);
-        } else if (salary > 10000 || salary <= 20000) {
+            System.out.println(basicSalary);
+        } else if (salary <= 20000) {
             double taxes = 0.18;
             double sumOfTaxes = salary * taxes;
             double basicSalary = salary - sumOfTaxes;
-            System.out.println("Basic salary = " + basicSalary);
-        } else if (salary > 20000){
+            System.out.println(basicSalary);
+        } else {
             double taxes = 0.20;
             double sumOfTaxes = salary * taxes;
             double basicSalary = salary - sumOfTaxes;
-            System.out.println("Basic salary = " + basicSalary);
-        } else if (salary == 0) {
-            System.out.println("wrong input!");
+            System.out.println(basicSalary);
         }
     }
 }
