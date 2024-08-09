@@ -12,11 +12,13 @@ public class SalaryCalculator {
             double sumOfTaxes = salary * taxes;
             double basicSalary = salary - sumOfTaxes;
             System.out.println(basicSalary);
-        } else {
+        } else if (salary > 20000){
             double taxes = 0.20;
             double sumOfTaxes = salary * taxes;
             double basicSalary = salary - sumOfTaxes;
             System.out.println(basicSalary);
+        } else {
+            System.out.println("wrong input!");
         }
     }
 }
